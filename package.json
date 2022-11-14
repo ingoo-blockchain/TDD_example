@@ -1,0 +1,22 @@
+{
+    "name": "tdd",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest --runInBand --detectOpenHandles --forceExit"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2",
+        "mysql2": "^2.3.3",
+        "sequelize": "^6.25.5"
+    },
+    "devDependencies": {
+        "jest": "^29.3.1",
+        "node-mocks-http": "^1.12.1",
+        "supertest": "^6.3.1"
+    }
+}
