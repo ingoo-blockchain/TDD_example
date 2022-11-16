@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "jest --runInBand --detectOpenHandles --forceExit"
+        "test": "jest --runInBand --detectOpenHandles --forceExit",
+        "test:super": "jest --runInBand --detectOpenHandles --forceExit ./test/intergation",
+        "test:tdd": "jest --runInBand --detectOpenHandles --forceExit ./test/unit"
     },
     "keywords": [],
     "author": "",
